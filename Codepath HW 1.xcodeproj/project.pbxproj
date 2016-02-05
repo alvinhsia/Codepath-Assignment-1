@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8602E1CF1C628F6700791E42 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602E1CE1C628F6700791E42 /* CreateAccountRootViewController.swift */; };
 		861B57DE1C611FF1003464C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861B57DD1C611FF1003464C1 /* AppDelegate.swift */; };
-		861B57E01C611FF1003464C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861B57DF1C611FF1003464C1 /* ViewController.swift */; };
 		861B57E31C611FF1003464C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861B57E11C611FF1003464C1 /* Main.storyboard */; };
 		861B57E51C611FF1003464C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 861B57E41C611FF1003464C1 /* Assets.xcassets */; };
 		861B57E81C611FF1003464C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861B57E61C611FF1003464C1 /* LaunchScreen.storyboard */; };
 		861B57F31C611FF1003464C1 /* Codepath_HW_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861B57F21C611FF1003464C1 /* Codepath_HW_1Tests.swift */; };
 		861B57FE1C611FF1003464C1 /* Codepath_HW_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861B57FD1C611FF1003464C1 /* Codepath_HW_1UITests.swift */; };
+		8643EC6B1C63230C00F0C77B /* Create1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8643EC6A1C63230C00F0C77B /* Create1ViewController.swift */; };
+		8643EC6F1C63271700F0C77B /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8643EC6E1C63271700F0C77B /* SignInViewController.swift */; };
+		8643EC711C632F2900F0C77B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8643EC701C632F2900F0C77B /* SettingsViewController.swift */; };
+		8643EC731C6331C300F0C77B /* ToSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8643EC721C6331C300F0C77B /* ToSViewController.swift */; };
+		8643EC751C63351C00F0C77B /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8643EC741C63351C00F0C77B /* ForgotPasswordViewController.swift */; };
+		8667EB4E1C64122200A260B4 /* ExistingPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8667EB4D1C64122200A260B4 /* ExistingPhotosViewController.swift */; };
+		86918EEC1C6423CE00EA97EE /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86918EEB1C6423CE00EA97EE /* PhotoDetailViewController.swift */; };
+		86918EEE1C64262100EA97EE /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86918EED1C64262100EA97EE /* FavoritesViewController.swift */; };
+		86918EF01C642D0900EA97EE /* WelcomeScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86918EEF1C642D0900EA97EE /* WelcomeScrollViewController.swift */; };
+		86BABBC91C62885C00E19429 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BABBC81C62885C00E19429 /* SignInRootViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8602E1CE1C628F6700791E42 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateAccountRootViewController.swift; path = ../CreateAccountRootViewController.swift; sourceTree = "<group>"; };
 		861B57DA1C611FF1003464C1 /* Codepath HW 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Codepath HW 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		861B57DD1C611FF1003464C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		861B57DF1C611FF1003464C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		861B57E21C611FF1003464C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		861B57E41C611FF1003464C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		861B57E71C611FF1003464C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +57,16 @@
 		861B57F91C611FF1003464C1 /* Codepath HW 1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Codepath HW 1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		861B57FD1C611FF1003464C1 /* Codepath_HW_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codepath_HW_1UITests.swift; sourceTree = "<group>"; };
 		861B57FF1C611FF1003464C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8643EC6A1C63230C00F0C77B /* Create1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Create1ViewController.swift; sourceTree = "<group>"; };
+		8643EC6E1C63271700F0C77B /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		8643EC701C632F2900F0C77B /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		8643EC721C6331C300F0C77B /* ToSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToSViewController.swift; sourceTree = "<group>"; };
+		8643EC741C63351C00F0C77B /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		8667EB4D1C64122200A260B4 /* ExistingPhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExistingPhotosViewController.swift; path = ../ExistingPhotosViewController.swift; sourceTree = "<group>"; };
+		86918EEB1C6423CE00EA97EE /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
+		86918EED1C64262100EA97EE /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		86918EEF1C642D0900EA97EE /* WelcomeScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeScrollViewController.swift; sourceTree = "<group>"; };
+		86BABBC81C62885C00E19429 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInRootViewController.swift; path = ../SignInRootViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +118,18 @@
 			isa = PBXGroup;
 			children = (
 				861B57DD1C611FF1003464C1 /* AppDelegate.swift */,
-				861B57DF1C611FF1003464C1 /* ViewController.swift */,
+				8602E1CE1C628F6700791E42 /* CreateAccountRootViewController.swift */,
+				86BABBC81C62885C00E19429 /* SignInRootViewController.swift */,
 				861B57E11C611FF1003464C1 /* Main.storyboard */,
+				86918EEF1C642D0900EA97EE /* WelcomeScrollViewController.swift */,
+				86918EED1C64262100EA97EE /* FavoritesViewController.swift */,
+				86918EEB1C6423CE00EA97EE /* PhotoDetailViewController.swift */,
+				8667EB4D1C64122200A260B4 /* ExistingPhotosViewController.swift */,
+				8643EC741C63351C00F0C77B /* ForgotPasswordViewController.swift */,
+				8643EC721C6331C300F0C77B /* ToSViewController.swift */,
+				8643EC701C632F2900F0C77B /* SettingsViewController.swift */,
+				8643EC6E1C63271700F0C77B /* SignInViewController.swift */,
+				8643EC6A1C63230C00F0C77B /* Create1ViewController.swift */,
 				861B57E41C611FF1003464C1 /* Assets.xcassets */,
 				861B57E61C611FF1003464C1 /* LaunchScreen.storyboard */,
 				861B57E91C611FF1003464C1 /* Info.plist */,
@@ -259,8 +289,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				861B57E01C611FF1003464C1 /* ViewController.swift in Sources */,
+				8643EC751C63351C00F0C77B /* ForgotPasswordViewController.swift in Sources */,
+				8602E1CF1C628F6700791E42 /* CreateAccountRootViewController.swift in Sources */,
+				86BABBC91C62885C00E19429 /* SignInRootViewController.swift in Sources */,
+				8667EB4E1C64122200A260B4 /* ExistingPhotosViewController.swift in Sources */,
+				8643EC6F1C63271700F0C77B /* SignInViewController.swift in Sources */,
+				8643EC731C6331C300F0C77B /* ToSViewController.swift in Sources */,
+				86918EF01C642D0900EA97EE /* WelcomeScrollViewController.swift in Sources */,
+				86918EEE1C64262100EA97EE /* FavoritesViewController.swift in Sources */,
+				8643EC6B1C63230C00F0C77B /* Create1ViewController.swift in Sources */,
 				861B57DE1C611FF1003464C1 /* AppDelegate.swift in Sources */,
+				86918EEC1C6423CE00EA97EE /* PhotoDetailViewController.swift in Sources */,
+				8643EC711C632F2900F0C77B /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +525,7 @@
 				861B58041C611FF1003464C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		861B58051C611FF1003464C1 /* Build configuration list for PBXNativeTarget "Codepath HW 1Tests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +534,7 @@
 				861B58071C611FF1003464C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		861B58081C611FF1003464C1 /* Build configuration list for PBXNativeTarget "Codepath HW 1UITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +543,7 @@
 				861B580A1C611FF1003464C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
